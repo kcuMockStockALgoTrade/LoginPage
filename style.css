@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 40;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+line{
+    background-color: #ff0000;
+    padding: 1px;
+    display: flex;
+}
+
+h1{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 100px
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    align-items:last baseline
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right:0;
+
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.welcome-message {
+    text-align: center;
+    padding: 13px;
+
+}
+
+.welcome-message intro {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.welcome-message explanation{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+main {
+    padding: 50px;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #704c4c;
+}
+
+button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer p {
+    font-size: 12px;
+}
